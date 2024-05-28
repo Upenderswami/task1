@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="bgimage">
+     <div class="main">
+        <p id="pare">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsa molestiae magni mollitia expedita ab id quae repudiandae ipsam odit ratione, veritatis earum ducimus culpa assumenda odio possimus placeat ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, non dignissimos atque, nam totam id, est quisquam rerum unde pariatur rem cupiditate numquam ab fuga explicabo delectus sed velit excepturi  non dignissimos atque, nam totam id, est amet quisquam rerum unde pariatur rem cupiditate numquam ab fuga explicabo delectus sed velit exceptu   non dignissimos atque, nam !</p>
+        <button onclick="hide()">Hide</button>
+        <button onclick="show()">Show</button>
+     </div>
+    </div>
+
+
+
+    <script>
+       function hide()
+       {
+        var a = document.getElementById('pare')
+
+        
+            a.innerHTML="";
+       }
+       function show()
+       {
+        var a = document.getElementById('pare')
+
+        
+            a.innerHTML="Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsa molestiae magni mollitia expedita ab id quae repudiandae ipsam odit ratione, veritatis earum ducimus culpa assumenda odio possimus placeat ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, non dignissimos atque, nam totam id, est quisquam rerum unde pariatur rem cupiditate numquam ab fuga explicabo delectus sed velit excepturi  non dignissimos atque, nam totam id, est amet quisquam rerum unde pariatur rem cupiditate numquam ab fuga explicabo delectus sed velit exceptu   non dignissimos atque, nam !";
+       }
+    </script>
+
+</body>
+</html>
